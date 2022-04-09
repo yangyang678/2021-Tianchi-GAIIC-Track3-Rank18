@@ -1,1 +1,1 @@
-NeZha初始化config及词典
+NeZha-cn-base初始化config及词典
