@@ -1,0 +1,6 @@
+flask
+pandas
+transformers
+sklearn
+onnxruntime-gpu=1.4
+onnx
