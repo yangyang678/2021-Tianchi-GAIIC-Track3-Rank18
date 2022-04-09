@@ -78,4 +78,4 @@ sh run.sh
 
 **9、trick细节**
 
-详见
+详见blog: http://119.91.118.115/competition/36.html
