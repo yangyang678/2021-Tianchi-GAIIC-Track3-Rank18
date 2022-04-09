@@ -1,0 +1,1 @@
+NeZha初始化config及词典
