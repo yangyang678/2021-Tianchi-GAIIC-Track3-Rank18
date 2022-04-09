@@ -2,6 +2,7 @@
 天池2021"全球人工智能技术创新大赛"【赛道三】：小布助手对话短文本语义匹配 - 第18名解决方案
 
 赛题链接：https://tianchi.aliyun.com/competition/entrance/531851/rankingList
+
 **1、任务背景**
 
 该赛题出题方是OPPO公司研发的语音助手-小布助手，它们的主要业务是对话式服务。意图识别是对话系统中的一个核心任务，而对话短文本语义匹配是意图识别的主流算法方案之一。
@@ -34,4 +35,47 @@
 
 比赛总共使用了三个模型，包括bert、roberta以及nezha。
 
-**5、
+**5、数据**
+
+本项目没有提供数据，如果需要数据，请到天池比赛主页下载
+
+**6、预训练模型准备**
+
+模型下载：
+
+nezha-cn-wwm：
+
+https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/NEZHA-TensorFlow
+
+nezha-cn-base：
+
+https://huggingface.co/miaomiaomiao/nezha_miao
+
+bert-cn-wwm: 
+
+https://github.com/ymcui/Chinese-BERT-wwm
+
+roberta-cn-uer: 
+
+https://huggingface.co/uer/chinese_roberta_L-12_H-768
+
+**7、实验环境**
+
+1.PyTorch	1.5.0
+
+2.cudnn	7
+
+3.cuda	10.2
+
+4.onnxruntime-gpu=1.4
+
+5.transformers 4.3.3
+
+**8、端到端训练脚本**
+```
+sh run.sh
+```
+
+**9、trick细节**
+
+详见
