@@ -75,7 +75,3 @@ https://huggingface.co/uer/chinese_roberta_L-12_H-768
 ```
 sh run.sh
 ```
-
-**9、trick细节**
-
-详见blog: http://http://alsoyang.com//competition/36.html
